@@ -1,0 +1,29 @@
+checkpoint: checkpoints/checkpoint.pth
+dataset_path: data/dsec
+results_path: results
+split: test
+
+flow_iters: 4
+disp_iters: 3
+init_flow_iters: 8
+init_disp_iters: 6
+
+num_workers: 4
+device: cuda:0
+save_visualizations: true
+strict_load: true
+
+model:
+  height: 480
+  width: 640
+
+  hidden_dim: 128
+  context_dim: 128
+
+  corr_levels: 4
+  corr_radius: 4
+  disp_corr_levels: 4
+  disp_corr_radius: 3
+
+  feature_mamba: true
+  context_mamba: true
