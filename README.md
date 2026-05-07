@@ -85,7 +85,7 @@ data/
 
 ## Checkpoints
 
-Download the checkpoints from [E-FlowDepth_Checkpoints](https://kuacae-my.sharepoint.com/:f:/g/personal/muhammad_ahumais_ku_ac_ae/IgALVon6Ej_ZTbeGyAFg8kf0AcA3HxiLPRqWOZ1Rke-_Bg8?e=QvLEPt) and place them in `checkpoints/` directory:
+Download the checkpoints from [E-FlowDepth_Checkpoints](https://kuacae-my.sharepoint.com/:f:/g/personal/muhammad_ahumais_ku_ac_ae/IgALVon6Ej_ZTbeGyAFg8kf0AcA3HxiLPRqWOZ1Rke-_Bg8) and place them in `checkpoints/` directory:
 ```text
 checkpoints/checkpoint.pth
 ```
